@@ -1,0 +1,13 @@
+public class Tv extends Product{
+	Tv(){
+		super(100);
+	}
+		public String toString() {return "Tv";}
+}
+ //-----------------------------------------------
+ public class Computer extends Product{
+	Computer() {super(200);}
+	public String toString() {return"Computer";}
+
+}
+
